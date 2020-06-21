@@ -170,7 +170,7 @@ public class Array<E> {
    * @return
    */
   public E removeLast() {
-    return remove(size - 1);
+    return remove(size - 1); 
   }
 
   /**

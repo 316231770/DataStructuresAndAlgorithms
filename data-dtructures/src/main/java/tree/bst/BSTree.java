@@ -5,8 +5,7 @@ import java.util.Queue ;
 import java.util.Stack ;
 
 /**
- * 递归实现二分搜索树
- * 这里设计的树是不存储重复元素的, 重复添加元素只保存一个
+ * 
  * @author 七夜雪
  *
  */

@@ -90,17 +90,7 @@ public class MyLinkedList<E> {
 	 * @param index
 	 * @return
 	 */
-	public E get(int index) {
-		if (index < 0 || index > size) {
-			throw new IllegalArgumentException("get fail, illegal index");
-		}
-		Node cur = head;
-		for (int i = 0; i < index; i++) {
-			cur = cur.next;
-		}
-		
-		return cur.e;
-	}
+	 
 	
 	/**
 	 * 获取链表第一个元素
@@ -165,6 +155,11 @@ public class MyLinkedList<E> {
 		del.next = null; 
 		size--;
 		return del.e;
+	}
+	
+	public boolean removeElement(E e){
+		
+		return true;
 	}
 	
 	/**
